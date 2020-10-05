@@ -10,98 +10,102 @@
 
 <StackPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TicTacToe.controller.Controller">
    <children>
-      <Line endX="100.0" endY="300.0" fill="BLACK" startX="99.20098876953125" startY="-300.0" strokeWidth="4.0">
-         <StackPane.margin>
-            <Insets right="200.0" />
-         </StackPane.margin>
-      </Line>
-      <Line endX="100.0" endY="300.0" fill="BLACK" layoutY="-300.0" startX="99.9705810546875" startY="-300.0390625" strokeWidth="4.0">
-         <StackPane.margin>
-            <Insets right="-200.0" />
-         </StackPane.margin>
-      </Line>
-      <Line endX="300.0" endY="100.0" fill="BLACK" startX="-300.0" startY="100.0" strokeWidth="4.0">
-         <StackPane.margin>
-            <Insets bottom="-200.0" />
-         </StackPane.margin>
-      </Line>
-      <Line endX="300.0" endY="400.0" fill="BLACK" startX="-300.0" startY="400.0" strokeWidth="4.0">
-         <StackPane.margin>
-            <Insets bottom="200.0" />
-         </StackPane.margin>
-      </Line>
-      <Text fx:id="leftUp" onMouseClicked="#ButtonClick" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="110.0">
-         <StackPane.margin>
-            <Insets bottom="400.0" right="400.0" />
-         </StackPane.margin>
-         <font>
-            <Font size="96.0" />
-         </font>
-      </Text>
-      <Text fx:id="upCenter" onMouseClicked="#ButtonClick" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="110.0">
-         <StackPane.margin>
-            <Insets bottom="400.0" />
-         </StackPane.margin>
-         <font>
-            <Font size="96.0" />
-         </font>
-      </Text>
-      <Text fx:id="leftCenter" onMouseClicked="#ButtonClick" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="126.0">
-         <StackPane.margin>
-            <Insets right="400.0" />
-         </StackPane.margin>
-         <font>
-            <Font size="96.0" />
-         </font>
-      </Text>
-      <Text fx:id="upRight" onMouseClicked="#ButtonClick" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="110.0">
-         <StackPane.margin>
-            <Insets bottom="400.0" left="400.0" />
-         </StackPane.margin>
-         <font>
-            <Font size="96.0" />
-         </font>
-      </Text>
-      <Text fx:id="rightCenter" onMouseClicked="#ButtonClick" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="119.0">
-         <StackPane.margin>
-            <Insets left="400.0" />
-         </StackPane.margin>
-         <font>
-            <Font size="96.0" />
-         </font>
-      </Text>
-      <Text fx:id="buttomLeft" onMouseClicked="#ButtonClick" strokeType="OUTSIDE" strokeWidth="0.0" text=" " wrappingWidth="110.0">
-         <StackPane.margin>
-            <Insets right="400.0" top="400.0" />
-         </StackPane.margin>
-         <font>
-            <Font size="96.0" />
-         </font>
-      </Text>
-      <Text fx:id="buttomRight" onMouseClicked="#ButtonClick" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="110.0">
-         <StackPane.margin>
-            <Insets left="400.0" top="400.0" />
-         </StackPane.margin>
-         <font>
-            <Font size="96.0" />
-         </font>
-      </Text>
-      <Text fx:id="buttomCenter" onMouseClicked="#ButtonClick" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="108.0">
-         <StackPane.margin>
-            <Insets top="400.0" />
-         </StackPane.margin>
-         <font>
-            <Font size="96.0" />
-         </font>
-      </Text>
-      <Text fx:id="center" onMouseClicked="#ButtonClick" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="111.0" StackPane.alignment="CENTER">
-         <font>
-            <Font size="96.0" />
-         </font>
-      </Text>
+      <StackPane fx:id="seconfFrame" prefHeight="150.0" prefWidth="200.0">
+         <children>
+            <Line endX="100.0" endY="300.0" fill="BLACK" startX="99.20098876953125" startY="-300.0" strokeWidth="4.0">
+               <StackPane.margin>
+                  <Insets right="200.0" />
+               </StackPane.margin>
+            </Line>
+            <Line endX="100.0" endY="300.0" fill="BLACK" startX="99.9705810546875" startY="-300.0390625" strokeWidth="4.0">
+               <StackPane.margin>
+                  <Insets right="-200.0" />
+               </StackPane.margin>
+            </Line>
+            <Line endX="300.0" endY="100.0" fill="BLACK" startX="-300.0" startY="100.0" strokeWidth="4.0">
+               <StackPane.margin>
+                  <Insets bottom="-200.0" />
+               </StackPane.margin>
+            </Line>
+            <Line endX="300.0" endY="400.0" fill="BLACK" startX="-300.0" startY="400.0" strokeWidth="4.0">
+               <StackPane.margin>
+                  <Insets bottom="200.0" />
+               </StackPane.margin>
+            </Line>
+            <Text fx:id="leftUp" onMouseClicked="#ButtonClick" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="110.0">
+               <StackPane.margin>
+                  <Insets bottom="400.0" right="400.0" />
+               </StackPane.margin>
+               <font>
+                  <Font size="96.0" />
+               </font>
+            </Text>
+            <Text fx:id="upCenter" onMouseClicked="#ButtonClick" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="110.0">
+               <StackPane.margin>
+                  <Insets bottom="400.0" />
+               </StackPane.margin>
+               <font>
+                  <Font size="96.0" />
+               </font>
+            </Text>
+            <Text fx:id="leftCenter" onMouseClicked="#ButtonClick" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="126.0">
+               <StackPane.margin>
+                  <Insets right="400.0" />
+               </StackPane.margin>
+               <font>
+                  <Font size="96.0" />
+               </font>
+            </Text>
+            <Text fx:id="upRight" onMouseClicked="#ButtonClick" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="110.0">
+               <StackPane.margin>
+                  <Insets bottom="400.0" left="400.0" />
+               </StackPane.margin>
+               <font>
+                  <Font size="96.0" />
+               </font>
+            </Text>
+            <Text fx:id="rightCenter" onMouseClicked="#ButtonClick" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="119.0">
+               <StackPane.margin>
+                  <Insets left="400.0" />
+               </StackPane.margin>
+               <font>
+                  <Font size="96.0" />
+               </font>
+            </Text>
+            <Text fx:id="buttomLeft" onMouseClicked="#ButtonClick" strokeType="OUTSIDE" strokeWidth="0.0" text=" " wrappingWidth="110.0">
+               <StackPane.margin>
+                  <Insets right="400.0" top="400.0" />
+               </StackPane.margin>
+               <font>
+                  <Font size="96.0" />
+               </font>
+            </Text>
+            <Text fx:id="buttomRight" onMouseClicked="#ButtonClick" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="110.0">
+               <StackPane.margin>
+                  <Insets left="400.0" top="400.0" />
+               </StackPane.margin>
+               <font>
+                  <Font size="96.0" />
+               </font>
+            </Text>
+            <Text fx:id="buttomCenter" onMouseClicked="#ButtonClick" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="108.0">
+               <StackPane.margin>
+                  <Insets top="400.0" />
+               </StackPane.margin>
+               <font>
+                  <Font size="96.0" />
+               </font>
+            </Text>
+            <Text fx:id="center" onMouseClicked="#ButtonClick" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="111.0" StackPane.alignment="CENTER">
+               <font>
+                  <Font size="96.0" />
+               </font>
+            </Text>
+         </children>
+      </StackPane>
       <TextField fx:id="statusEndGame" alignment="CENTER" disable="true" opacity="0.87" prefHeight="199.0" prefWidth="534.0" style="-fx-background-color: white;">
          <font>
-            <Font name="System Bold" size="96.0" />
+            <Font name="System Bold" size="75.0" />
          </font>
          <StackPane.margin>
             <Insets />
